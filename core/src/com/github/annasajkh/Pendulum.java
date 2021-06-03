@@ -27,8 +27,6 @@ public class Pendulum
 
 	public void update()
 	{
-
-		
 		this.x2 = x1 - MathUtils.cos(rotationRad) * size;
 		this.y2 = y1 - MathUtils.sin(rotationRad) * size;
 		
